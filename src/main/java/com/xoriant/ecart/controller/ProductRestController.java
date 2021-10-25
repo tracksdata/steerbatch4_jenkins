@@ -34,6 +34,7 @@ public class ProductRestController {
 	// find all products
 	@GetMapping
 	public List<Product> findAll() {
+		System.out.println("======================== FETCHING ALL PRODUCTTS ========================");
 		return productService.findAll();
 	}
 
